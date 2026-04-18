@@ -1,0 +1,30 @@
+{
+  "name": "obsidian-code-enhancer",
+  "version": "1.0.0",
+  "description": "Production-ready Obsidian plugin that adds lightweight IDE-like features inside fenced code blocks.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "esbuild main.ts --bundle --outfile=main.js --format=cjs --platform=browser --sourcemap --external:obsidian --watch",
+    "build": "esbuild main.ts --bundle --outfile=main.js --format=cjs --platform=browser --minify --external:obsidian",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "codemirror",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@codemirror/autocomplete": "^6.18.4",
+    "@codemirror/language": "^6.11.3",
+    "@codemirror/lint": "^6.8.5",
+    "@codemirror/state": "6.5.0",
+    "@codemirror/view": "6.38.6",
+    "@lezer/highlight": "^1.2.1",
+    "esbuild": "^0.25.9",
+    "obsidian": "^1.8.9",
+    "typescript": "^5.9.2"
+  }
+}

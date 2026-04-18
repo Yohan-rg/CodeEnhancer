@@ -1,0 +1,10 @@
+{
+  "id": "code-enhancer",
+  "name": "Code Enhancer",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Enhances fenced code blocks in Obsidian with intelligent IDE-like editing features.",
+  "author": "CodeEnhancer",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

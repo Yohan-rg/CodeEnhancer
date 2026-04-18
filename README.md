@@ -19,6 +19,7 @@ npm run check
 npm run build
 ```
 
+
 ## Package (recommended)
 
 This command creates a ready-to-copy plugin folder at `dist/code-enhancer`:
@@ -50,6 +51,7 @@ Do **not** copy `src/`, `node_modules/`, or TypeScript config files into the vau
 3. Run `npm run build` again and recopy `main.js`.
 4. Fully restart Obsidian after copying files.
 5. Open Developer Console in Obsidian (`Ctrl/Cmd+Shift+I`) and check the exact error.
+
 
 ## Development
 

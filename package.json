@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "esbuild main.ts --bundle --outfile=main.js --format=cjs --platform=browser --sourcemap --external:obsidian --watch",
     "build": "esbuild main.ts --bundle --outfile=main.js --format=cjs --platform=browser --minify --external:obsidian",
-    "check": "tsc --noEmit"
+
+    "check": "tsc --noEmit",
+    "package": "npm run build && node scripts/package.mjs"
   },
   "keywords": [
     "obsidian",
